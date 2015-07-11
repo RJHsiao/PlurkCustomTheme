@@ -188,17 +188,21 @@ html, body {
 .response_time {
     border-radius: 5px;
 }
+/* 回噗表單 */
+.plurk_box textarea#input_small {
+    height: 1.5em;
+    margin-top: 0;
+}
 /*私訊圖示*/
 .plurk_icon {
     z-index: 860;
     top: 15px;
 }
 
+/* Dashboard common setting */
 #dashboard_holder {
     padding: 35px 0 0;
 }
-
-/* Dashboard common setting */
 #dashboard_holder #plurk-dashboard {
     background: transparent;
     position: fixed;
@@ -209,7 +213,6 @@ html, body {
     overflow: visible;
     z-index: 900;
 }
-
 #plurk-dashboard .dash-segment {
     min-height: 0px;
     margin-top: 5px;
@@ -217,13 +220,11 @@ html, body {
     border-radius: 10px;
     color: white;
 }
-
 #plurk-dashboard .dash-segment h2 {
     border: none;
     font-size: 14px;
     padding: 0px;
 }
-
 #plurk-dashboard .dash-segment,
 #plurk-dashboard .dash-segment *,
 #plurk-dashboard .dash-segment:hover,
@@ -335,7 +336,6 @@ html, body {
     width: 235px;
     height: 290px;
 }
-
 #plurk-dashboard .dash-segment-friends #dash-friends,
 #plurk-dashboard .dash-segment-fans #dash-fans {
     margin: 0px;
@@ -349,6 +349,12 @@ html, body {
 }
 #dashboard_holder #plurk_form:hover {
     z-index: 999;
+}
+#dashboard_holder #plurk_form textarea {
+    margin-top: 0;
+}
+#dashboard_holder #plurk_form textarea.content {
+    height: 1.5em;
 }
 #dashboard_holder .plurkaction {
     width: calc(100vw - 300px);
@@ -371,7 +377,6 @@ html, body {
 #dashboard_holder .plurkaction .display_name {
     color: white;
 }
-
 #dashboard_holder .plurkaction #more_options {
     opacity: 0;
     transition: opacity 0.25s ease-out 0.25s;
